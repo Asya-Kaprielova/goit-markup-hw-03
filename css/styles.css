@@ -42,7 +42,9 @@ a {
 ul {
   list-style-type: none;
 }
-section {
+.features,
+.team,
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -79,7 +81,6 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 .contacts {
   font-style: normal;
@@ -283,11 +284,11 @@ section {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-bottom: 100px;
-  padding-top: 100px;
 }
 .footer-page {
   background-color: #2e2f42;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -329,4 +330,7 @@ section {
 }
 .link-contacts:focus {
   color: #404bbf;
+}
+.link {
+  padding: 24px 0;
 }
